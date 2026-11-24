@@ -1,0 +1,26 @@
+# 个人数据（画像 / 岗位 / 简历）——绝不要提交
+data/
+*.offerloop.json
+
+# 构建与打包产物
+dist/
+*.zip
+SHA256SUMS.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# 临时
+*.log
+*.bak
