@@ -60,6 +60,8 @@ python3 scripts/install.py
 
 **重启 Qoder**，在对话框输入 `/`，就能看到命令。先跑 `/qiuzhi`。
 
+**不会用？** 打开 [`examples/`](examples/) 目录，挑一篇整段粘进对话框就行，不用记命令。
+
 > 只验证不安装：`python3 scripts/install.py --check`
 > 装到某个项目（项目级生效）：`python3 scripts/install.py --target .qoder`
 
@@ -212,6 +214,12 @@ python3 scripts/plan.py --kind week --out 求职周计划.html     # 默认排�
 │   ├── 08-公司调研清单.md
 │   ├── 09-岗位渠道与平台清单.md
 │   └── 10-行情与本科定位.md
+├── examples/                 5 篇可直接粘贴的对话示例（不知道怎么说时照抄）
+│   ├── 01-找岗位.md
+│   ├── 02-模拟面试.md
+│   ├── 03-改简历.md
+│   ├── 04-查公司.md
+│   └── 05-计划.md
 ├── assets/复盘表模板.md
 └── VERSION / LICENSE / CHANGELOG.md
 ```
