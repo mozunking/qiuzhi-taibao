@@ -44,7 +44,7 @@
 ### macOS / Linux
 
 ```bash
-git clone https://github.com/<your-name>/qiuzhi-taibao.git
+git clone https://github.com/mozunking/qiuzhi-taibao.git
 cd qiuzhi-taibao
 python3 scripts/install.py
 ```
